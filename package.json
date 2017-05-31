@@ -1,0 +1,13 @@
+{
+  "scripts": {
+    "build": "html-inline index.html > dist/index.html"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@bitbucket.org/peakrider/website.git"
+  },
+  "homepage": "https://bitbucket.org/peakrider/website#readme",
+  "devDependencies": {
+    "html-inline": "^1.2.0"
+  }
+}

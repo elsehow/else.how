@@ -1,7 +1,7 @@
 
 
 html {
-    padding: 3%;
+    padding: 2%;
     max-width: 70%;
     font-size: 12pt;
 }
@@ -13,6 +13,7 @@ h1 {
 
 @media only screen and (max-width: 500px) {
     body {
-        font-size: 12pt;
+        padding: 5%;
+        font-size: 22pt;
     }
 }
