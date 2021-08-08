@@ -4,8 +4,9 @@ import { build, Page } from './build';
 
 export type { Page };
 
-const postsDirectory = path.join(process.cwd(), 'posts');
-const blacklistedDirectories = new Set(['life', 'ring']);
+const postsDirectory = '/home/ffff/gdrive/Notes/roam/'
+// const postsDirectory = path.join(process.cwd(), 'posts');
+const blacklistedDirectories = new Set(['life', 'daily', 'people', 'project']);
 const specialPages = new Set(['/', '/uniorg/', '/archive/']);
 
 const dump = build({
