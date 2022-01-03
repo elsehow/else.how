@@ -1,18 +1,23 @@
- html {
-     padding-top: 5%;
-     margin: auto;
-     width: 1000px;
-     font-size: 20pt;
- }
+/* @import url('https://fonts.googleapis.com/css2?family=Inter&display=swap'); */
+@import url('https://fonts.googleapis.com/css2?family=Source+Code+Pro&display=swap');
 
- .logo {
-     width: 97px;
-     height: 100px;
- }
 
- @media only screen and (max-width: 1000px) {
-     html {
-        width: 100%;
-        font-size:22pt;
-     }
- }
+html {
+    padding-top: 5%;
+    margin: auto;
+    width: 1000px;
+    font-size: 2em;
+    font-family: 'Source Code Pro', sans-serif;
+}
+
+.logo {
+    width: 97px;
+    height: 100px;
+}
+
+@media only screen and (max-width: 1000px) {
+    html {
+       width: 100%;
+       font-size:22pt;
+    }
+}
